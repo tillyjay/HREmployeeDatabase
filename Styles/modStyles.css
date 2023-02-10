@@ -1,0 +1,131 @@
+/* Record Mod Page Links & Button Styles */
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: helvetica;
+    margin: 20px 40px;
+}
+
+.mods {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px;
+}
+
+.mods button, .mods input[type=submit]{
+    padding: 10px;
+    color: grey;
+    background-color: lightskyblue;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+h2 {
+    border: 2px solid grey;
+    margin: 0px 40px;
+    padding: 10px;
+}
+
+/* Update query page Styles */
+#updateInfo {
+    border: none;
+    margin: 15px;
+}
+
+
+#updateDiv form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+    border: 1px solid black;
+    padding:20px;
+    max-width:800px;
+}
+
+#updateDiv.label {
+    display: flex;
+    flex-flo: row nowrap;
+    margin: 5px;
+}
+
+#updateDiv form label {
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+#updateDiv input {
+    padding: 5px;
+    font-size: 15px;
+}
+
+#updateDiv form #birthD {
+    margin-left: 3px;
+}
+
+#updateDiv form #gender {
+    margin-left: 23px;
+}
+
+#updateDiv form #hireD {
+    margin-left: 7px;
+}
+
+#updateDiv form p {
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#updateDiv input[type=submit] {
+    padding: 15px;
+    background-color: lightskyblue;
+    color: grey;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+
+
+/* Delete query page Styles */
+#deleteForm {
+    margin: 0px 40px;
+    border: 2px solid dimgrey;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#deleteForm #empNo {
+    padding: 5px;
+    font-size: 20px;
+}
+
+#deleteForm #submit {
+    padding: 10px 20px;
+    color: grey;
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+
+/* Benefits Opt out page */
+
+#optOut {
+    margin: 10px 40px;
+    border: 2px solid dimgrey;
+    padding: 10px;
+}
+
+#optOut #submit {
+    padding: 10px;
+    color: grey;
+    background-color: lightskyblue;
+    font-weight: bold;
+}

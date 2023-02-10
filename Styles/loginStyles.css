@@ -1,0 +1,60 @@
+/* Main Login Styles */
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+}
+
+form {
+    font-size: 20px;
+    border: 5px lightskyblue solid;
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+#submit {
+    padding: 15px;
+    background-color: lightskyblue;
+    color: grey;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Redirect Styles */
+
+body {
+    font-family: helvetica;
+}
+
+#reroute {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 500px;
+    border: 2px solid dimgrey;
+    padding: 10px;
+
+}
+
+h2 {
+    margin: 20px;
+    font-family: helvetica;
+}
+
+#reroute button {
+    padding: 10px;
+    color: grey;
+    background-color: lightskyblue;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
